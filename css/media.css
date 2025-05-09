@@ -1,0 +1,47 @@
+@media (min-width: 0px) {
+    .btn-main, .btn-outline-main {
+        --bs-btn-padding-x: 30px;
+        --bs-btn-padding-y: 10px;
+    }
+
+    .testimonials-card {
+        width: 100%;
+    }
+}
+
+/*********** Small ***********/
+@media (min-width: 576px) {
+    .btn-main, .btn-outline-main {
+        --bs-btn-padding-x: 40px;
+        --bs-btn-padding-y: 10px;
+    }
+}
+
+/********** Medium ***********/
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/*********** Large ***********/
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+    .testimonials-card {
+        width: 75%;
+    }
+}
+
+
+/******** Extra Large ********/
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/***** Extra extra Large *****/
+@media (min-width: 1400px) {}
